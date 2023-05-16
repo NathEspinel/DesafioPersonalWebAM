@@ -129,17 +129,31 @@ a {
     width: 100%
 }
 
-
-footer {
-    background-color: rgb(6, 50, 89);
-    margin-top: 5px;
-    padding: 10px;
+button {
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
 
 }
 
-.contacto {
-    font-family: sans-serif;
-    text-align: justify;
-    background-color: rgb(235, 184, 179);
-    border-radius: 10px;
+
+.footer {
+    background-color: rgb(29, 26, 26);
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.footer li {
+    margin-bottom: 3px;
+    font-size: .7rem;
+}
+
+.footer>h2 {
+    color: whitesmoke;
+    margin-bottom: 0;
 }
