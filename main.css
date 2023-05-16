@@ -75,6 +75,20 @@ a {
 
 }
 
+.filmografia {
+    background-color: rgb(6, 50, 89);
+    padding: 10px;
+}
+
+.filmo {
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(43, 87, 126);
+    border-radius: 10px;
+}
+
 .obrasRecientes {
     background-color: rgb(6, 50, 89);
     padding: 10px;
@@ -100,6 +114,7 @@ a {
     margin: 5px;
     padding: 10px;
     font-family: sans-serif;
+    text-align: justify;
     background-color: rgb(43, 87, 126);
     border-radius: 10px;
     box-shadow: 1px 1px 12px #000;
@@ -117,4 +132,14 @@ a {
 
 footer {
     background-color: rgb(6, 50, 89);
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.contacto {
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 184, 179);
+    border-radius: 10px;
 }
