@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 200px;
+    background-image: url("https://wallpaper.dog/large/20494010.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-color: rgb(6, 50, 89);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(170, 209, 243);
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background-color: rgb(235, 184, 179);
+    /*rgb(43, 87, 126)
+    rgb(232, 163, 155);*/
+}
+
+
+
+h2 {
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans Unicode';
+    font-size: larger;
+    color: rgb(170, 209, 243);
+
+}
+
+
+#main {
+    background-color: rgb(6, 50, 89);
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.sinopsis {
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(43, 87, 126);
+    border-radius: 10px;
+}
+
+#fotoCreador {
+    width: 350px;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: medium;
+    color: rgb(14, 71, 121);
+
+}
+
+.obrasRecientes {
+    background-color: rgb(6, 50, 89);
+    padding: 10px;
+}
+
+
+.card {
+    width: 33%;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.movies {
+    display: flex;
+}
+
+.movies article {
+
+    margin: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: rgb(43, 87, 126);
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px #000;
+}
+
+.movies article h3 {
+    text-align: center;
+}
+
+.movies article img {
+    border-radius: 10px;
+    width: 100%
+}
+
+
+footer {
+    background-color: rgb(6, 50, 89);
+}
