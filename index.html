@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Makoto Shinkai</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
 
 </head>
 
@@ -22,99 +23,110 @@
 
     </nav>
 
-    <main id="main">
-        <h2> Biografía - ¿Quien es Makoto Shinkai?</h2>
-        <article class="sinopsis" id="sec1">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Makoto_Shinkai%2C_2023.jpg" id="fotoCreador"
-                alt="Foto del director" />
-            <p>Makoto Nitsu (Koumi, 9 de febrero de 1973), conocido universalmente como Makoto Shinkai, su nombre
-                artístico, es un mangaka y director de anime japonés.
-                Makoto Shinkai es el gran nombre del presente de la animación japonesa, y ha alcanzado una popularidad
-                internacional. Ha sido considerado por muchos como el heredero de Miyazaki, una comparación que él
-                rechaza ya que no desea que lo pongan al nivel del que es uno de sus maestros.
-                Su obra destaca por sus escenarios extremadamente detallados y preciosistas, la animación artesanal y
-                unos argumentos capaces de combinar la ciencia ficción o fantasía y el costumbrismo, para reflejar el
-                día a día de sus personajes en situaciones extraordinarias. Sus películas y cortometrajes suelen tratar
-                temas como la identidad, la soledad, el peso de la distancia en las relaciones amorosas y el paso del
-                tiempo.
-                Shinkai nació en Koumi, un pequeño pueblo de la prefectura de Nagano. Desde su infancia, era un
-                apasionado de la literatura japonesa, el manga y el anime; y se ha referido posteriormente a la
-                admiración que siente por las obras de genios de la animación como Hayao Miyazaki, Hideaki Anno y Mamoru
-                Oshii.
-                Cuando estudiaba literatura en la Universidad de Chuo, en Tokio, comenzó a dibujar y prepararse como
-                ilustrador. En 1999 convirtió una de sus historias, Ella y su gato, en un cortometraje de cinco minutos,
-                en blanco y negro, que ganó varios premios, incluyendo el DoGA CG Animation contest del año 2000. Fue
-                fichado para trabajar como diseñador gráfico para Falcom, una compañía de videojuegos, para que la
-                trabajó para diversos títulos.
-            </p>
-
-
-        </article>
-
-    </main>
-
-    <section class="filmografia" id="filmografia">
-        <h2> Filmografía - Su trayectoria</h2>
-        <article class="filmo" id="filSec">
-            A partir de inicio como diseñador gráfico preparando sus propios cortometrajes de animación, como Voces de
-            una estrella distante. Interesada en esas obras, fue contactado por una editora de mangas y animes,
-            Mangazoo, que le ofreció la posibilidad de crear
-            un largometraje. Así que dejó Falcom, y tras siete meses de lo que describió como un trabajo frenético, se
-            estrenó en 2004, la ucronía El lugar que nos prometimos, que fue aclamada por la crítica de todo el mundo.
-
-            A continuación llegaría: 5 centímetros por segundo (2007), Viaje a Agartha (2011), El jardín de las palabras
-            (2013). En 2016, se estrenó su mayor éxito, la fantasía romántica Your Name, que se convirtió en el tercera
-            película de anime más taquillera de todos los tiempos. En 2019, siguió El tiempo contigo. En el 2023 en el
-            mes de abril se estrano su más reciente obra Suzume.
-        </article>
-
-    </section>
-
-    <section class="obrasRecientes" id="obrasRecientes">
-        <h2> Obras recientes </h2>
-        <section class="movies" id="movies">
-
-            <article class="card">
-                <h3>Suzume</h3>
-                <p>Suzume, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer
-                    otras puertas por todo Japón. Cuando las puertas se abren, liberan desastres y destrucción, y
-                    depende de Suzume volver a cerrarlas.</p>
-
-                <img src="https://www.elcolombiano.com/binrepository/1348x565/284c0/780d565/none/11101/QPWF/suzume-pub-005_42209074_20230420175108.jpg"
-                    alt="Suzume" width="800" />
-
-                <button id="suzume"> Trailer </button>
-
-
+    <div class="container">
+        <main id="main">
+            <h2> Biografía - ¿Quien es Makoto Shinkai?</h2>
+            <article class="sinopsis">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Makoto_Shinkai%2C_2023.jpg"
+                    class="makotoFoto" alt="Foto del director" />
+                <p>Makoto Nitsu (Koumi, 9 de febrero de 1973), conocido universalmente como Makoto Shinkai, su nombre
+                    artístico, es un mangaka y director de anime japonés.
+                    Makoto Shinkai es el gran nombre del presente de la animación japonesa, y ha alcanzado una
+                    popularidad
+                    internacional. Ha sido considerado por muchos como el heredero de Miyazaki, una comparación que él
+                    rechaza ya que no desea que lo pongan al nivel del que es uno de sus maestros.
+                    Su obra destaca por sus escenarios extremadamente detallados y preciosistas, la animación artesanal
+                    y
+                    unos argumentos capaces de combinar la ciencia ficción o fantasía y el costumbrismo, para reflejar
+                    el
+                    día a día de sus personajes en situaciones extraordinarias. Sus películas y cortometrajes suelen
+                    tratar
+                    temas como la identidad, la soledad, el peso de la distancia en las relaciones amorosas y el paso
+                    del
+                    tiempo.
+                    Shinkai nació en Koumi, un pequeño pueblo de la prefectura de Nagano. Desde su infancia, era un
+                    apasionado de la literatura japonesa, el manga y el anime; y se ha referido posteriormente a la
+                    admiración que siente por las obras de genios de la animación como Hayao Miyazaki, Hideaki Anno y
+                    Mamoru
+                    Oshii.
+                    Cuando estudiaba literatura en la Universidad de Chuo, en Tokio, comenzó a dibujar y prepararse como
+                    ilustrador. En 1999 convirtió una de sus historias, Ella y su gato, en un cortometraje de cinco
+                    minutos,
+                    en blanco y negro, que ganó varios premios, incluyendo el DoGA CG Animation contest del año 2000.
+                    Fue
+                    fichado para trabajar como diseñador gráfico para Falcom, una compañía de videojuegos, para que la
+                    trabajó para diversos títulos.
+                </p>
             </article>
+        </main>
 
-            <article class="card ">
-                <h3>Tenki no ko</h3>
-                <p>Durante una época de lluvia, Hodaka, estudiante de escuela secundaria, escapa del
-                    problemático hogar del que proviene, en una zona rural y huye a Tokio, se hace amigo de una chica
-                    con el misterioso poder de
-                    manipular y controlar el clima a su antojo.</p>
+        <section class="filmografia" id="filmografia">
+            <h2> Filmografía - Su trayectoria</h2>
+            <article class="filmo" id="filSec">
+                A partir de inicio como diseñador gráfico preparando sus propios cortometrajes de animación, como Voces
+                de
+                una estrella distante. Interesada en esas obras, fue contactado por una editora de mangas y animes,
+                Mangazoo, que le ofreció la posibilidad de crear
+                un largometraje. Así que dejó Falcom, y tras siete meses de lo que describió como un trabajo frenético,
+                se
+                estrenó en 2004, la ucronía El lugar que nos prometimos, que fue aclamada por la crítica de todo el
+                mundo.
 
-                <img src="https://www.hanamidango.com/wp-content/uploads/2020/05/Tenki-no-Ko-7-1.jpg" alt="tenki_no_ko"
-                    width="800" height="333" />
-
-                <button id="tenki"> Trailer </button>
-            </article>
-
-            <article class="card">
-                <h3>Kimi no Na wa</h3>
-                <p>El joven Taki vive en Tokio: la joven Mitsuha, en un pequeño pueblo en las montañas. Durante el
-                    sueño, los cuerpos de ambos se intercambian. Recluidos en un cuerpo que les resulta extraño,
-                    comienzan a comunicarse.</p>
-
-                <img src="https://www.enter.co/wp-content/uploads/2017/09/798370fa4828f4df5c416eca8f9beea1.jpg"
-                    alt="Kimi_no_Na_wa" width="800" height="333" />
-
-                <button id="kimi"> Trailer </button>
+                A continuación llegaría: 5 centímetros por segundo (2007), Viaje a Agartha (2011), El jardín de las
+                palabras
+                (2013). En 2016, se estrenó su mayor éxito, la fantasía romántica Your Name, que se convirtió en el
+                tercera
+                película de anime más taquillera de todos los tiempos. En 2019, siguió El tiempo contigo. En el 2023 en
+                el
+                mes de abril se estrano su más reciente obra Suzume.
             </article>
         </section>
-    </section>
 
+        <section id="movies" class="obrasRecientes">
+            <h2> Obras recientes </h2>
+            <section class="movies">
+
+                <article class="card">
+                    <h3>Suzume</h3>
+                    <p>Suzume, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer
+                        otras puertas por todo Japón. Cuando las puertas se abren, liberan desastres y destrucción, y
+                        depende de Suzume volver a cerrarlas.</p>
+
+                    <img src="https://www.elcolombiano.com/binrepository/1348x565/284c0/780d565/none/11101/QPWF/suzume-pub-005_42209074_20230420175108.jpg"
+                        alt="Suzume" width="800" />
+
+                    <!--button id="suzume"> Trailer </!--button-->
+                </article>
+
+                <article class="card">
+                    <h3>Tenki no ko</h3>
+                    <p>Durante una época de lluvia, Hodaka, estudiante de escuela secundaria, escapa del
+                        problemático hogar del que proviene, en una zona rural y huye a Tokio, se hace amigo de una
+                        chica
+                        con el misterioso poder de
+                        manipular y controlar el clima a su antojo.</p>
+
+                    <img src="https://www.hanamidango.com/wp-content/uploads/2020/05/Tenki-no-Ko-7-1.jpg"
+                        alt="tenki_no_ko" width="800" height="333" />
+
+                    <!--button id="tenki"> Trailer </!--button-->
+                </article>
+
+                <article class="card">
+                    <h3>Kimi no Na wa</h3>
+                    <p>El joven Taki vive en Tokio: la joven Mitsuha, en un pequeño pueblo en las montañas. Durante el
+                        sueño, los cuerpos de ambos se intercambian. Recluidos en un cuerpo que les resulta extraño,
+                        comienzan a comunicarse.</p>
+
+                    <img src="https://www.enter.co/wp-content/uploads/2017/09/798370fa4828f4df5c416eca8f9beea1.jpg"
+                        alt="Kimi_no_Na_wa" width="800" height="333" />
+
+                    <!--button id="kimi"> Trailer </!--button-->
+                </article>
+            </section>
+        </section>
+
+    </div>
 
 
 
@@ -122,15 +134,11 @@
         <h2>Contactenos</h2>
 
         <ul>
-
             <li> Kelly Nathalia Garcia Espinel </li>
             <li> Correo: <a href="Correo"> pepito@gmail.com </a></li>
             <li> Telefono: <a href="Celular">3212546822</a></li>
-
         </ul>
     </footer>
-
-
 </body>
 
 </html>

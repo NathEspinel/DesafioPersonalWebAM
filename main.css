@@ -2,13 +2,23 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 body {
     margin: 0;
-    padding: 0 200px;
     background-image: url("https://wallpaper.dog/large/20494010.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+.container {
+    margin: 0 10%;
+    padding-bottom: 100px;
+    background-color: rgb(6, 50, 89, .9);
 }
 
 header {
@@ -27,8 +37,6 @@ nav {
     flex-flow: row wrap;
     justify-content: flex-end;
     background-color: rgb(235, 184, 179);
-    /*rgb(43, 87, 126)
-    rgb(232, 163, 155);*/
 }
 
 
@@ -43,8 +51,6 @@ h2 {
 
 
 #main {
-    background-color: rgb(6, 50, 89);
-    margin-top: 5px;
     padding: 10px;
 }
 
@@ -52,15 +58,24 @@ h2 {
     display: flex;
     font-family: sans-serif;
     text-align: justify;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: rgb(43, 87, 126);
     border-radius: 10px;
 }
 
-#fotoCreador {
-    width: 350px;
-    border-radius: 40px;
-    padding: 25px;
+.sinopsis>* {
+    width: 50%;
+}
+
+.sinopsis>p {
+    flex-grow: 1;
+}
+
+.makotoFoto {
+    width: 30%;
+    border-radius: 20px;
+    margin-right: 20px;
 }
 
 a {
@@ -69,14 +84,13 @@ a {
     margin-right: 5px;
     padding: 10px;
     text-align: center;
-    font-family: 'Lucida Sans Unicode';
+    /*font-family: 'Lucida Sans Unicode';*/
     font-size: medium;
     color: rgb(14, 71, 121);
 
 }
 
 .filmografia {
-    background-color: rgb(6, 50, 89);
     padding: 10px;
 }
 
@@ -90,31 +104,52 @@ a {
 }
 
 .obrasRecientes {
-    background-color: rgb(6, 50, 89);
     padding: 10px;
 }
 
-
-.card {
-    width: 33%;
-}
-
-@media screen and (max-width: 600px) {
-    .card {
-        width: 100%;
-    }
+.obrasRecientes>h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 3px;
 }
 
 .movies {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 49%;
+    }
+
+    .movies>.card:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        width: 32%;
+    }
+}
+
+.card>h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 .movies article {
-
-    margin: 5px;
     padding: 10px;
     font-family: sans-serif;
-    text-align: justify;
     background-color: rgb(43, 87, 126);
     border-radius: 10px;
     box-shadow: 1px 1px 12px #000;
@@ -129,12 +164,12 @@ a {
     width: 100%
 }
 
-button {
+/*button {
     padding: 4px;
     border: none;
     border-radius: 5px;
-
-}
+    background-color: gray;
+}*/
 
 
 .footer {
