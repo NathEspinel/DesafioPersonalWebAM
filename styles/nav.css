@@ -1,0 +1,18 @@
+nav{
+  
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  background-color: rgb(235, 184, 179);
+}
+
+a{
+  text-decoration: none;
+  color:rgb(14, 71, 121);
+  margin-left: 5px;
+  margin-right: 5px;
+  row-gap: 3rem;
+  padding: 10px;
+  text-align: center;
+}
