@@ -1,3 +1,26 @@
 main{
-  padding: 10px;
+  margin: 5px;
+  padding: 20px;
+  text-align: justify;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 5% repeat(3, 20%);  
 }
+
+main > h2{
+  grid-area: 1 / 1 / 2 / 3;
+  text-align: center;
+}
+
+main > p {
+  grid-column: 2 / 3;
+}
+
+
+#makotoFoto {
+  border-radius: 5px;
+  /*width: fit-content;*/
+  grid-area: 2 / 1 / 5 / 2;
+   
+}
+
