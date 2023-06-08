@@ -14,7 +14,6 @@ main > h2{
 }
 
 .sinopsis{
-  
   display: flex;
   gap: 20px;
   align-items: center ;
@@ -23,5 +22,19 @@ main > h2{
 #makotoFoto {
   border-radius: 5px;
   height: 80%;
+}
+
+@media screen and (max-width: 1327px) {
+  .sinopsis{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center ;
+  }
+  #makotoFoto {
+    border-radius: 5px;
+    height: 60%;
+    align-content: center;
+  }
 }
 
