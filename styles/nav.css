@@ -1,13 +1,15 @@
 nav{
   
   padding: 10px;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-around;
   background-color: rgb(235, 184, 179);
+  border-radius: 10px;
 }
 
-a{
+a {
   text-decoration: none;
   color:rgb(14, 71, 121);
   margin-left: 5px;
@@ -15,4 +17,18 @@ a{
   row-gap: 3rem;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+a:link,
+a:visited,
+a:focus {
+  background: rgb(235, 184, 179);
+}
+
+a:hover {
+  background: rgb(198, 142, 137);
+  color: blanchedalmond;
 }
