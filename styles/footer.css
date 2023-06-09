@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgb(29, 26, 26);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  color: whitesmoke;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer li {
+  margin-bottom: 3px;
+  font-size: .7rem;
+}
+
+.footer > h2 {
+  color: whitesmoke;
+  margin-bottom: 0;
+}

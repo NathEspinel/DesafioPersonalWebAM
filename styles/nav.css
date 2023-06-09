@@ -9,7 +9,7 @@ nav{
   border-radius: 10px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color:rgb(14, 71, 121);
   margin-left: 5px;
@@ -22,13 +22,13 @@ a {
 
 }
 
-a:link,
-a:visited,
-a:focus {
+nav a:link,
+nav a:visited,
+nav a:focus {
   background: rgb(235, 184, 179);
 }
 
-a:hover {
+nav a:hover {
   background: rgb(198, 142, 137);
   color: blanchedalmond;
 }
