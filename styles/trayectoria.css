@@ -1,0 +1,30 @@
+#trayectoria{
+  margin: 5px;
+  padding: 20px;
+  text-align: justify;
+}
+
+#trayectoria > h2{
+  padding: 10px 0 30px 0;
+}
+
+
+#trayectoria > article > h3{
+  padding: 0 0 10px 20px;
+}
+
+#trayectoria > article > p{
+  padding: 0 0 10px 20px;
+}
+
+#trayectoria > article > ol{
+  padding: 0 40px 10px 70px;
+  
+}
+
+#trayectoria > article > ul{
+  padding: 0 40px 30px 70px;
+  list-style:disc ;
+}
+
+
