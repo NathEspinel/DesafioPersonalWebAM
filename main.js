@@ -7,3 +7,7 @@ botonTenki.addEventListener('click', link)
 let botonKimi = document.getElementById('kimi')
 botonKimi.addEventListener('click', link)*/
 
+
+document.getElementById('button').addEventListener('click', () => {
+    window.alert('Javascript');
+})

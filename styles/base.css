@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
@@ -6,7 +6,7 @@
   font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
-header{
+header {
   width: 100%;
   justify-content: center;
   display: grid;
@@ -14,7 +14,7 @@ header{
   padding: 2rem;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -23,12 +23,14 @@ ul {
   padding: 0;
 }
 
-body{
+body {
   min-height: 100vh;
   overflow-x: hidden;
   align-items: center;
+}
+
+body > section, body > main {
   margin: 0 10%;
-  padding-bottom: 100px;
 }
 
 
